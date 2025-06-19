@@ -32,19 +32,31 @@ This project is an AI-powered avatar generation API built with **Flask**, **Cont
 
 ## 📁 Folder Structure
 
-project-root/
+project-root
 │
+
 ├── services/
+
 │ └── instantid.py # Main avatar generator logic
+
 │
+
 ├── useruploads/ # Uploaded user face images
+
 ├── uploads/ # Clothing assets (suits, shirts, etc.)
+
 ├── generated/ # Output avatars
+
 ├── checkpoints/ # ControlNet model directory (ignored)
+
 │
+
 ├── app.py # Main Flask API
+
 ├── requirements.txt
+
 ├── .gitignore
+
 └── README.md
 
 
